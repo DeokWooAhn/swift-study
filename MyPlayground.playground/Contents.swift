@@ -68,15 +68,42 @@ import UIKit
 //
 //printDictionary(dic: info)
 
-var multiplyClosure: (Int, Int) -> Int = { a, b in
-    return a * b
+//var multiplyClosure: (Int, Int) -> Int = { a, b in
+//    return a * b
+//}
+//
+//let result = multiplyClosure(4, 2)
+//
+//func operateNum(a: Int, b: Int, operation: (Int, Int) -> Int) -> Int {
+//    let result = operation(a, b)
+//    return result
+//}
+//
+//operateNum(a: 4, b: 2, operation: multiplyClosure)
+
+struct Team {
+    let name: String
+    let player: String
+    let positionOfPlayer: String
 }
 
-let result = multiplyClosure(4, 2)
-
-func operateNum(a: Int, b: Int, operation: (Int, Int) -> Int) -> Int {
-    let result = operation(a, b)
-    return result
+func printTeamName(from player: String, players: [Team]) {
+//    var teamName = ""
+//    
+//    for team in players {
+//        if player == team.player {
+//            teamName = team.name
+//        }
+//    }
+    
+    let teamName = players.first { $0.player == player }?.name ?? ""
+    print("팀 이름: \(teamName)")
 }
 
-operateNum(a: 4, b: 2, operation: multiplyClosure)
+let player1 = Team(name: "ManCity", player: "Kevin", positionOfPlayer: "midfielder")
+let player2 = Team(name: "RealMadrid", player: "Kross", positionOfPlayer: "midfielder")
+let player3 = Team(name: "Tottenham", player: "Son", positionOfPlayer: "forword")
+
+let players = [player1, player2, player3]
+
+printTeamName(from: "Son", players: players)
