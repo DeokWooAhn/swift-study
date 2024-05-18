@@ -81,29 +81,70 @@ import UIKit
 //
 //operateNum(a: 4, b: 2, operation: multiplyClosure)
 
-struct Team {
-    let name: String
-    let player: String
-    let positionOfPlayer: String
-}
-
-func printTeamName(from player: String, players: [Team]) {
-//    var teamName = ""
+//struct Team {
+//    let name: String
+//    let player: String
+//    let positionOfPlayer: String
+//}
+//
+//func printTeamName(from player: String, players: [Team]) {
+////    var teamName = ""
+////    
+////    for team in players {
+////        if player == team.player {
+////            teamName = team.name
+////        }
+////    }
 //    
-//    for team in players {
-//        if player == team.player {
-//            teamName = team.name
-//        }
-//    }
+//    let teamName = players.first { $0.player == player }?.name ?? ""
+//    print("팀 이름: \(teamName)")
+//}
+//
+//let player1 = Team(name: "ManCity", player: "Kevin", positionOfPlayer: "midfielder")
+//let player2 = Team(name: "RealMadrid", player: "Kross", positionOfPlayer: "midfielder")
+//let player3 = Team(name: "Tottenham", player: "Son", positionOfPlayer: "forword")
+//
+//let players = [player1, player2, player3]
+//
+//printTeamName(from: "Son", players: players)
+
+struct Person {
+    var firstName: String
+    var lastName: String {
+        willSet {
+            print("willSet: \(lastName) --> \(newValue)")
+        }
+        
+        didSet {
+            print("didSet: \(oldValue) --> \(lastName)")
+        }
+    }
     
-    let teamName = players.first { $0.player == player }?.name ?? ""
-    print("팀 이름: \(teamName)")
+    var fullName: String {
+        get {
+            return "\(firstName) \(lastName)"
+        }
+        
+        set {
+            if let firstName = newValue.components(separatedBy: " ").first {
+                self.firstName = firstName
+            }
+            
+            if let lastName = newValue.components(separatedBy: " ").last {
+                self.lastName = lastName
+            }
+        }
+    }
+    
+    static let isGF: Bool = true // 타입 프로퍼티
 }
 
-let player1 = Team(name: "ManCity", player: "Kevin", positionOfPlayer: "midfielder")
-let player2 = Team(name: "RealMadrid", player: "Kross", positionOfPlayer: "midfielder")
-let player3 = Team(name: "Tottenham", player: "Son", positionOfPlayer: "forword")
+var person = Person(firstName: "Kim", lastName: "MinJi")
 
-let players = [player1, player2, player3]
+person.firstName
+person.lastName
 
-printTeamName(from: "Son", players: players)
+person.fullName = "Kim Mango"
+person.lastName
+
+Person.isGF
