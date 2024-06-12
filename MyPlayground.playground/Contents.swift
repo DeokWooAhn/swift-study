@@ -108,43 +108,50 @@ import UIKit
 //
 //printTeamName(from: "Son", players: players)
 
-struct Person {
-    var firstName: String
-    var lastName: String {
-        willSet {
-            print("willSet: \(lastName) --> \(newValue)")
-        }
-        
-        didSet {
-            print("didSet: \(oldValue) --> \(lastName)")
-        }
-    }
-    
-    var fullName: String {
-        get {
-            return "\(firstName) \(lastName)"
-        }
-        
-        set {
-            if let firstName = newValue.components(separatedBy: " ").first {
-                self.firstName = firstName
-            }
-            
-            if let lastName = newValue.components(separatedBy: " ").last {
-                self.lastName = lastName
-            }
-        }
-    }
-    
-    static let isGF: Bool = true // 타입 프로퍼티
-}
+//struct Person {
+//    var firstName: String
+//    var lastName: String {
+//        willSet {
+//            print("willSet: \(lastName) --> \(newValue)")
+//        }
+//        
+//        didSet {
+//            print("didSet: \(oldValue) --> \(lastName)")
+//        }
+//    }
+//    
+//    var fullName: String {
+//        get {
+//            return "\(firstName) \(lastName)"
+//        }
+//        
+//        set {
+//            if let firstName = newValue.components(separatedBy: " ").first {
+//                self.firstName = firstName
+//            }
+//            
+//            if let lastName = newValue.components(separatedBy: " ").last {
+//                self.lastName = lastName
+//            }
+//        }
+//    }
+//    
+//    static let isGF: Bool = true // 타입 프로퍼티
+//}
+//
+//var person = Person(firstName: "Kim", lastName: "MinJi")
+//
+//person.firstName
+//person.lastName
+//
+//person.fullName = "Kim Mango"
+//person.lastName
+//
+//Person.isGF
 
-var person = Person(firstName: "Kim", lastName: "MinJi")
+var peopleAge: [String: Int] = ["Kim": 20, "Lee": 30]
+print(peopleAge["Kim"]!) // 출력: 20
 
-person.firstName
-person.lastName
+peopleAge["Park"] = 25 // 새로운 key, value 추가
+print(peopleAge)
 
-person.fullName = "Kim Mango"
-person.lastName
-
-Person.isGF

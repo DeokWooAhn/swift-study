@@ -1,0 +1,606 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D40FFCCD2C19CF3400849715 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D40FFCCC2C19CF3400849715 /* AppDelegate.swift */; };
+		D40FFCCF2C19CF3400849715 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D40FFCCE2C19CF3400849715 /* SceneDelegate.swift */; };
+		D40FFCD12C19CF3500849715 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D40FFCD02C19CF3500849715 /* ViewController.swift */; };
+		D40FFCD42C19CF3500849715 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = D40FFCD32C19CF3500849715 /* Base */; };
+		D40FFCD62C19CF3600849715 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D40FFCD52C19CF3600849715 /* Assets.xcassets */; };
+		D40FFCD92C19CF3600849715 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = D40FFCD82C19CF3600849715 /* Base */; };
+		D40FFCE42C19CF3700849715 /* SybolRollerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D40FFCE32C19CF3700849715 /* SybolRollerTests.swift */; };
+		D40FFCEE2C19CF3700849715 /* SybolRollerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D40FFCED2C19CF3700849715 /* SybolRollerUITests.swift */; };
+		D40FFCF02C19CF3700849715 /* SybolRollerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D40FFCEF2C19CF3700849715 /* SybolRollerUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D40FFCE02C19CF3700849715 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D40FFCC12C19CF3400849715 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D40FFCC82C19CF3400849715;
+			remoteInfo = SybolRoller;
+		};
+		D40FFCEA2C19CF3700849715 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D40FFCC12C19CF3400849715 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D40FFCC82C19CF3400849715;
+			remoteInfo = SybolRoller;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D40FFCC92C19CF3400849715 /* SybolRoller.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SybolRoller.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D40FFCCC2C19CF3400849715 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D40FFCCE2C19CF3400849715 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		D40FFCD02C19CF3500849715 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D40FFCD32C19CF3500849715 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D40FFCD52C19CF3600849715 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D40FFCD82C19CF3600849715 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D40FFCDA2C19CF3600849715 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D40FFCDF2C19CF3700849715 /* SybolRollerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SybolRollerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D40FFCE32C19CF3700849715 /* SybolRollerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SybolRollerTests.swift; sourceTree = "<group>"; };
+		D40FFCE92C19CF3700849715 /* SybolRollerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SybolRollerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D40FFCED2C19CF3700849715 /* SybolRollerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SybolRollerUITests.swift; sourceTree = "<group>"; };
+		D40FFCEF2C19CF3700849715 /* SybolRollerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SybolRollerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D40FFCC62C19CF3400849715 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D40FFCDC2C19CF3700849715 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D40FFCE62C19CF3700849715 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D40FFCC02C19CF3400849715 = {
+			isa = PBXGroup;
+			children = (
+				D40FFCCB2C19CF3400849715 /* SybolRoller */,
+				D40FFCE22C19CF3700849715 /* SybolRollerTests */,
+				D40FFCEC2C19CF3700849715 /* SybolRollerUITests */,
+				D40FFCCA2C19CF3400849715 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D40FFCCA2C19CF3400849715 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D40FFCC92C19CF3400849715 /* SybolRoller.app */,
+				D40FFCDF2C19CF3700849715 /* SybolRollerTests.xctest */,
+				D40FFCE92C19CF3700849715 /* SybolRollerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D40FFCCB2C19CF3400849715 /* SybolRoller */ = {
+			isa = PBXGroup;
+			children = (
+				D40FFCCC2C19CF3400849715 /* AppDelegate.swift */,
+				D40FFCCE2C19CF3400849715 /* SceneDelegate.swift */,
+				D40FFCD02C19CF3500849715 /* ViewController.swift */,
+				D40FFCD22C19CF3500849715 /* Main.storyboard */,
+				D40FFCD52C19CF3600849715 /* Assets.xcassets */,
+				D40FFCD72C19CF3600849715 /* LaunchScreen.storyboard */,
+				D40FFCDA2C19CF3600849715 /* Info.plist */,
+			);
+			path = SybolRoller;
+			sourceTree = "<group>";
+		};
+		D40FFCE22C19CF3700849715 /* SybolRollerTests */ = {
+			isa = PBXGroup;
+			children = (
+				D40FFCE32C19CF3700849715 /* SybolRollerTests.swift */,
+			);
+			path = SybolRollerTests;
+			sourceTree = "<group>";
+		};
+		D40FFCEC2C19CF3700849715 /* SybolRollerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D40FFCED2C19CF3700849715 /* SybolRollerUITests.swift */,
+				D40FFCEF2C19CF3700849715 /* SybolRollerUITestsLaunchTests.swift */,
+			);
+			path = SybolRollerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D40FFCC82C19CF3400849715 /* SybolRoller */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D40FFCF32C19CF3700849715 /* Build configuration list for PBXNativeTarget "SybolRoller" */;
+			buildPhases = (
+				D40FFCC52C19CF3400849715 /* Sources */,
+				D40FFCC62C19CF3400849715 /* Frameworks */,
+				D40FFCC72C19CF3400849715 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SybolRoller;
+			productName = SybolRoller;
+			productReference = D40FFCC92C19CF3400849715 /* SybolRoller.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D40FFCDE2C19CF3700849715 /* SybolRollerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D40FFCF62C19CF3700849715 /* Build configuration list for PBXNativeTarget "SybolRollerTests" */;
+			buildPhases = (
+				D40FFCDB2C19CF3700849715 /* Sources */,
+				D40FFCDC2C19CF3700849715 /* Frameworks */,
+				D40FFCDD2C19CF3700849715 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D40FFCE12C19CF3700849715 /* PBXTargetDependency */,
+			);
+			name = SybolRollerTests;
+			productName = SybolRollerTests;
+			productReference = D40FFCDF2C19CF3700849715 /* SybolRollerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D40FFCE82C19CF3700849715 /* SybolRollerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D40FFCF92C19CF3700849715 /* Build configuration list for PBXNativeTarget "SybolRollerUITests" */;
+			buildPhases = (
+				D40FFCE52C19CF3700849715 /* Sources */,
+				D40FFCE62C19CF3700849715 /* Frameworks */,
+				D40FFCE72C19CF3700849715 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D40FFCEB2C19CF3700849715 /* PBXTargetDependency */,
+			);
+			name = SybolRollerUITests;
+			productName = SybolRollerUITests;
+			productReference = D40FFCE92C19CF3700849715 /* SybolRollerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D40FFCC12C19CF3400849715 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					D40FFCC82C19CF3400849715 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					D40FFCDE2C19CF3700849715 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = D40FFCC82C19CF3400849715;
+					};
+					D40FFCE82C19CF3700849715 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = D40FFCC82C19CF3400849715;
+					};
+				};
+			};
+			buildConfigurationList = D40FFCC42C19CF3400849715 /* Build configuration list for PBXProject "SybolRoller" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D40FFCC02C19CF3400849715;
+			productRefGroup = D40FFCCA2C19CF3400849715 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D40FFCC82C19CF3400849715 /* SybolRoller */,
+				D40FFCDE2C19CF3700849715 /* SybolRollerTests */,
+				D40FFCE82C19CF3700849715 /* SybolRollerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D40FFCC72C19CF3400849715 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D40FFCD62C19CF3600849715 /* Assets.xcassets in Resources */,
+				D40FFCD92C19CF3600849715 /* Base in Resources */,
+				D40FFCD42C19CF3500849715 /* Base in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D40FFCDD2C19CF3700849715 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D40FFCE72C19CF3700849715 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D40FFCC52C19CF3400849715 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D40FFCD12C19CF3500849715 /* ViewController.swift in Sources */,
+				D40FFCCD2C19CF3400849715 /* AppDelegate.swift in Sources */,
+				D40FFCCF2C19CF3400849715 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D40FFCDB2C19CF3700849715 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D40FFCE42C19CF3700849715 /* SybolRollerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D40FFCE52C19CF3700849715 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D40FFCF02C19CF3700849715 /* SybolRollerUITestsLaunchTests.swift in Sources */,
+				D40FFCEE2C19CF3700849715 /* SybolRollerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D40FFCE12C19CF3700849715 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D40FFCC82C19CF3400849715 /* SybolRoller */;
+			targetProxy = D40FFCE02C19CF3700849715 /* PBXContainerItemProxy */;
+		};
+		D40FFCEB2C19CF3700849715 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D40FFCC82C19CF3400849715 /* SybolRoller */;
+			targetProxy = D40FFCEA2C19CF3700849715 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D40FFCD22C19CF3500849715 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D40FFCD32C19CF3500849715 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D40FFCD72C19CF3600849715 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D40FFCD82C19CF3600849715 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D40FFCF12C19CF3700849715 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D40FFCF22C19CF3700849715 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D40FFCF42C19CF3700849715 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SybolRoller/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = swift.SybolRoller;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D40FFCF52C19CF3700849715 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SybolRoller/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = swift.SybolRoller;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D40FFCF72C19CF3700849715 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = swift.SybolRollerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SybolRoller.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SybolRoller";
+			};
+			name = Debug;
+		};
+		D40FFCF82C19CF3700849715 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = swift.SybolRollerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SybolRoller.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SybolRoller";
+			};
+			name = Release;
+		};
+		D40FFCFA2C19CF3700849715 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = swift.SybolRollerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SybolRoller;
+			};
+			name = Debug;
+		};
+		D40FFCFB2C19CF3700849715 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = swift.SybolRollerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SybolRoller;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D40FFCC42C19CF3400849715 /* Build configuration list for PBXProject "SybolRoller" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D40FFCF12C19CF3700849715 /* Debug */,
+				D40FFCF22C19CF3700849715 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D40FFCF32C19CF3700849715 /* Build configuration list for PBXNativeTarget "SybolRoller" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D40FFCF42C19CF3700849715 /* Debug */,
+				D40FFCF52C19CF3700849715 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D40FFCF62C19CF3700849715 /* Build configuration list for PBXNativeTarget "SybolRollerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D40FFCF72C19CF3700849715 /* Debug */,
+				D40FFCF82C19CF3700849715 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D40FFCF92C19CF3700849715 /* Build configuration list for PBXNativeTarget "SybolRollerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D40FFCFA2C19CF3700849715 /* Debug */,
+				D40FFCFB2C19CF3700849715 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D40FFCC12C19CF3400849715 /* Project object */;
+}
