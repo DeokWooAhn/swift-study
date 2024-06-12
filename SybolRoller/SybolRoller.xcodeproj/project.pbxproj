@@ -7,9 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D408925E2C19F205009E0ED4 /* SymbolRollerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D408925D2C19F205009E0ED4 /* SymbolRollerViewController.swift */; };
 		D40FFCCD2C19CF3400849715 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D40FFCCC2C19CF3400849715 /* AppDelegate.swift */; };
 		D40FFCCF2C19CF3400849715 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D40FFCCE2C19CF3400849715 /* SceneDelegate.swift */; };
-		D40FFCD12C19CF3500849715 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D40FFCD02C19CF3500849715 /* ViewController.swift */; };
 		D40FFCD42C19CF3500849715 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = D40FFCD32C19CF3500849715 /* Base */; };
 		D40FFCD62C19CF3600849715 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D40FFCD52C19CF3600849715 /* Assets.xcassets */; };
 		D40FFCD92C19CF3600849715 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = D40FFCD82C19CF3600849715 /* Base */; };
@@ -36,10 +36,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D408925D2C19F205009E0ED4 /* SymbolRollerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SymbolRollerViewController.swift; sourceTree = "<group>"; };
 		D40FFCC92C19CF3400849715 /* SybolRoller.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SybolRoller.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D40FFCCC2C19CF3400849715 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D40FFCCE2C19CF3400849715 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		D40FFCD02C19CF3500849715 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		D40FFCD32C19CF3500849715 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D40FFCD52C19CF3600849715 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D40FFCD82C19CF3600849715 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -101,7 +101,7 @@
 			children = (
 				D40FFCCC2C19CF3400849715 /* AppDelegate.swift */,
 				D40FFCCE2C19CF3400849715 /* SceneDelegate.swift */,
-				D40FFCD02C19CF3500849715 /* ViewController.swift */,
+				D408925D2C19F205009E0ED4 /* SymbolRollerViewController.swift */,
 				D40FFCD22C19CF3500849715 /* Main.storyboard */,
 				D40FFCD52C19CF3600849715 /* Assets.xcassets */,
 				D40FFCD72C19CF3600849715 /* LaunchScreen.storyboard */,
@@ -258,9 +258,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D40FFCD12C19CF3500849715 /* ViewController.swift in Sources */,
 				D40FFCCD2C19CF3400849715 /* AppDelegate.swift in Sources */,
 				D40FFCCF2C19CF3400849715 /* SceneDelegate.swift in Sources */,
+				D408925E2C19F205009E0ED4 /* SymbolRollerViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
