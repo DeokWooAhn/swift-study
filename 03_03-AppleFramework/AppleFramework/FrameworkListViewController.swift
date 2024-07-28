@@ -11,6 +11,8 @@ class FrameworkListViewController: UIViewController {
         collectionView.dataSource = self
         collectionView.delegate = self
         
+        navigationController?.navigationBar.topItem?.title = "🥳 Apple FrameWorks"
+        
         if let flowlayout = collectionView.collectionViewLayout as? UICollectionViewFlowLayout {
             flowlayout.estimatedItemSize = .zero
         }
@@ -41,7 +43,7 @@ extension FrameworkListViewController: UICollectionViewDelegateFlowLayout {
         let interItemSpacing: CGFloat = 10
         let padding: CGFloat = 16
         
-        let width = (collectionView.bounds.width - interItemSpacing * 3 - padding * 2) / 3
+        let width = (collectionView.bounds.width - interItemSpacing * 3 - padding * 2) / 4
         let height = width * 1.5
         
         return CGSize(width: width, height: height)
@@ -53,5 +55,12 @@ extension FrameworkListViewController: UICollectionViewDelegateFlowLayout {
     
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, minimumLineSpacingForSectionAt section: Int) -> CGFloat {
         return 10
+    }
+}
+
+extension FrameworkListViewController: UICollectionViewDelegate {
+    func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
+        let framework = list[indexPath.item]
+
     }
 }
