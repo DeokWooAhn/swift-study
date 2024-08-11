@@ -127,6 +127,7 @@
                     </view>
                     <connections>
                         <outlet property="collectionView" destination="yz3-eL-ox2" id="2PS-DA-CyX"/>
+                        <outlet property="pagecontorl" destination="poH-tO-imm" id="mZp-HB-vtn"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="JDh-4s-Hys" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
