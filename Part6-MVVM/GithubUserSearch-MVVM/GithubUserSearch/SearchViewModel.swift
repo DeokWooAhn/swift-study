@@ -34,7 +34,9 @@ final class SearchViewModel {
             .map { $0.items }
             .replaceError(with: [])
             .receive(on: RunLoop.main)
-            .assign(to: \.users, on: self)
+            .sink(receiveValue: { [weak self] items in
+                self?.users.send(items)
+            })
             .store(in: &subscriptions)
     }
 }
