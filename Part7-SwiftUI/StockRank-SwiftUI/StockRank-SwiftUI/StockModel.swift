@@ -8,9 +8,6 @@
 import Foundation
 
 struct StockModel: Hashable, Identifiable {
-//    var id: String {
-//        return name
-//    }
     
     var id: UUID = UUID()
     
@@ -19,6 +16,8 @@ struct StockModel: Hashable, Identifiable {
     let name: String
     let price: Int
     let diff: Double
+    
+    var isFavorite: Bool = false
 }
 
 extension StockModel {
