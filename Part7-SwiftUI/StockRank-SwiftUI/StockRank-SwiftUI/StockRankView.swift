@@ -9,8 +9,6 @@ import SwiftUI
 
 struct StockRankView: View {
     
-//    @State var list = StockModel.list
-    
     @StateObject var viewModel = StockRankViewModel()
     
     var body: some View {
