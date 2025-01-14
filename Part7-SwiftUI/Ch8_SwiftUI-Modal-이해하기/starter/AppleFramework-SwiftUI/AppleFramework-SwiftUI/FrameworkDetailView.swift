@@ -9,13 +9,13 @@ import SwiftUI
 
 struct FrameworkDetailView: View {
     
-    @Binding var framework: AppleFramework
+    @StateObject var viewModel: FrameworkDetailViewModel
     
     var body: some View {
         VStack {
-            Image(framework.imageName)
-            Text(framework.name)
-            Text(framework.description)
+            Image(viewModel.framework.imageName)
+            Text(viewModel.framework.name)
+            Text(viewModel.framework.description)
             
             Button {
                 
@@ -27,5 +27,6 @@ struct FrameworkDetailView: View {
 }
 
 #Preview {
-    FrameworkDetailView(framework: .constant(AppleFramework.list[0]))
+    let vm = FrameworkDetailViewModel(framework: AppleFramework.list[0])
+    FrameworkDetailView(viewModel: vm)
 }
