@@ -2,19 +2,19 @@
 //  FrameworkDetailView.swift
 //  AppleFramework-SwiftUI
 //
-//  Created by AhnDeokWoo on 1/13/25.
+//  Created by joonwon lee on 2022/06/15.
 //
 
 import SwiftUI
 
 struct FrameworkDetailView: View {
     
-    @StateObject var viewModel: FrameworkDetailViewModel
+    @StateObject var viewModel: FrameworkDetailViewModelSwiftUI
     
     var body: some View {
         VStack(spacing: 30) {
-            Spacer()
             
+            Spacer()
             Image(viewModel.framework.imageName)
                 .resizable()
                 .frame(width: 90, height: 90)
@@ -44,7 +44,9 @@ struct FrameworkDetailView: View {
     }
 }
 
-#Preview {
-    let vm = FrameworkDetailViewModel(framework: AppleFramework.list[0])
-    FrameworkDetailView(viewModel: vm)
+struct FrameworkDetailView_Previews: PreviewProvider {
+    static var previews: some View {
+        let vm = FrameworkDetailViewModelSwiftUI(framework: AppleFramework.list[0])
+        FrameworkDetailView(viewModel: vm)
+    }
 }
